@@ -2,6 +2,10 @@ html {
 	font-family: arial;
 }
 
+#icon {
+	padding-top: 15px;
+}
+
 #wip {
 	text-align: center;
 	position: absolute;
