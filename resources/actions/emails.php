@@ -6,4 +6,4 @@ if($action = "save") {
   $targetFolder = "/resources/actions/data.txt";
   file_put_contents($targetFolder."data.txt", $myText);
 }
-?>  
+?>
