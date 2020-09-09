@@ -17,6 +17,7 @@ if($action = "save") {
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
 	<link rel="stylesheet" type="text/php" href="resources/actions/emails.php">
+	<link rel="stylesheet" type="text/php" href="resources/actions/data.txt">
 	    <style>
       input:focus, textarea:focus, select:focus{
          outline: none;
