@@ -4,6 +4,7 @@
 	<title>Universal Server Hosting</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
+	<link rel="stylesheet" type="text/php" href="resources/actions/emails.php">
 	    <style>
       input:focus, textarea:focus, select:focus{
          outline: none;
@@ -15,7 +16,7 @@
 
 	<div id="elist">
 		<div id="alert">
-			<form name="alerts" action="resources/actions/emails.php" onsubmit="return validateForm()" method="post" required>
+			<form name="alerts" action="?action=save" onsubmit="return validateForm()" method="post" required>
 				<h3 class="alert">Alert Me</h3>
 				<input type="email" name="email_form" id="email" placeholder="Email">
 				<input type="submit" name="submit" id="submit" value="Sign Up">
@@ -23,6 +24,14 @@
 		</div>
 		<div id="faq">
 			<h3 class="fh3">FAQ</h3>
+			<h3 id="fh" class="rainbowbd">What happens with my email?</h3>
+			<h4 class="ht1">Our favorite robot will personally send you information.
+				Whenever we release a new update, discount code, or news
+				you will be the first to receive the information!</h4>
+			<h3 id="fh" class="rainbowbd">Do I get any benefits?</h3>
+			<h4 class="ht2">Yes, anyone who is on the newsletter before launch
+				will receive a post launch prize. All prizes will be linked
+				with the email used for the newsletter.</h4>
 			<button class="ib2" id="ib2" onclick="buttonClick2()">Close</button>
 		</div>
 
@@ -56,23 +65,6 @@
 			return false;
 		}
 	}
-</script>
-
-<script>
-	var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbyOrrFalQskuT5Q-94pID7nAM2OiQIZ7FewF8nav2rNEqp-deY/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
-  );
-})
 </script>
 
 </body>
