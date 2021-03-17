@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="429" height="189" viewBox="0 0 429 189">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c1c1c;
+      }
+
+      .cls-1 {
+        font-size: 24px;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        fill: #e3e3e3;
+      }
+    </style>
+  </defs>
+  <g id="i1" transform="translate(-746 -221)">
+    <text id="What_is_Universal_Server_Hosting_" data-name="What is Universal Server Hosting?" class="cls-1" transform="translate(960 243)"><tspan x="-196.055" y="0">What is Universal Server Hosting?</tspan></text>
+    <text id="We_strive_to_deliver_the_easiest_and_most_intuitive_server_hosting_experience_possible._Too_many_server_hosting_service_s_are_over_complicated_or_under_supported._We_want_to_change_this." data-name="We strive to deliver the easiest, and most intuitive server hosting experience possible. Too many server hosting service&apos;s are over complicated or under supported.We want to change this." class="cls-2" transform="translate(759 271)"><tspan x="3.576" y="16">We strive to deliver the easiest, and most intuitive </tspan><tspan x="18.565" y="37">server hosting experience possible. Too many </tspan><tspan x="4.709" y="58">server hosting service&apos;s are </tspan><tspan class="cls-3" y="58">over complicated</tspan><tspan y="58" xml:space="preserve"> or </tspan><tspan class="cls-3" x="127" y="79">under supported</tspan><tspan y="79">.</tspan><tspan x="201" y="100"></tspan><tspan class="cls-3"><tspan x="98.656" y="121">We want to change this.</tspan></tspan></text>
+    <rect id="Rectangle_873" data-name="Rectangle 873" class="cls-4" width="430" height="3" rx="1.5" transform="translate(746 258)"/>
+  </g>
+</svg>

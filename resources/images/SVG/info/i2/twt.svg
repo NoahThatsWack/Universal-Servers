@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174" height="82.804" viewBox="0 0 174 82.804">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1c1c1c;
+        font-size: 18px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="twt" transform="translate(-873 -955)">
+    <g id="Logo_1_" transform="translate(926.693 983.503)">
+      <path id="white_background" d="M59.331,14.643c.04.573.04,1.146.04,1.724C59.371,33.983,45.96,54.3,21.436,54.3v-.011A37.743,37.743,0,0,1,1,48.314a27.118,27.118,0,0,0,3.173.193,26.772,26.772,0,0,0,16.558-5.718A13.349,13.349,0,0,1,8.276,33.529,13.289,13.289,0,0,0,14.3,33.3,13.333,13.333,0,0,1,3.6,20.232v-.169a13.248,13.248,0,0,0,6.051,1.668A13.349,13.349,0,0,1,5.525,3.93,37.84,37.84,0,0,0,33,17.858,13.345,13.345,0,0,1,55.722,5.7a26.753,26.753,0,0,0,8.467-3.237,13.382,13.382,0,0,1-5.861,7.374,26.515,26.515,0,0,0,7.656-2.1A27.085,27.085,0,0,1,59.331,14.643Z" transform="translate(0 0)"/>
+    </g>
+    <text id="Follow_us_on_Twitter" data-name="Follow us on Twitter" class="cls-1" transform="translate(960 971)"><tspan x="-86.326" y="0">Follow us on Twitter</tspan></text>
+  </g>
+</svg>

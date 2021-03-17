@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="429" height="281" viewBox="0 0 429 281">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c1c1c;
+      }
+
+      .cls-1 {
+        font-size: 24px;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        fill: #e3e3e3;
+      }
+    </style>
+  </defs>
+  <g id="i2" transform="translate(-746 -221)">
+    <text id="I_don_t_see_any_text_inputs_" data-name="I don&apos;t see any text inputs?" class="cls-1" transform="translate(960 243)"><tspan x="-154.207" y="0">I don&apos;t see any text inputs?</tspan></text>
+    <text id="Sadly_GitHub_does_not_support_PHP._Because_of_this_we_can_not_use_text_form_s_to_transfer_information._That_being_said_there_are_other_way_s_to_contact_us_Personally_we_like_to_use_Discord_and_would_love_for_you_to_join_our_community._If_you_would_li" data-name="Sadly, GitHub does not support PHP. Because of this we can not use text form&apos;s to transfer information. That being said there are other way&apos;s to contact us!
+
+Personally, we like to use Discord, and would love for you to join our community.
+
+If you would li" class="cls-2" transform="translate(759 271)"><tspan x="6.718" y="16">Sadly, GitHub does not support PHP. Because of </tspan><tspan x="37.211" y="37">this we can not use text form&apos;s to transfer </tspan><tspan x="3.839" y="58">information. That being said there are other way&apos;s </tspan><tspan x="147.47" y="79">to contact us!</tspan><tspan x="201" y="100"></tspan><tspan class="cls-3"><tspan x="7.118" y="121">Personally, we like to use Discord, and would </tspan><tspan x="51.164" y="142">love for you to join our community.</tspan></tspan><tspan x="201" y="163"></tspan><tspan x="4.894" y="184">If you would like to track development, we have a </tspan><tspan x="159.485" y="205">twitter too!</tspan></text>
+    <rect id="Rectangle_873" data-name="Rectangle 873" class="cls-4" width="430" height="3" rx="1.5" transform="translate(746 258)"/>
+  </g>
+</svg>
