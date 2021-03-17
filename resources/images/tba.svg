@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="100" viewBox="0 0 178 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1c1c1c;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+      }
+
+      .cls-3 {
+        font-size: 28px;
+      }
+    </style>
+  </defs>
+  <g id="tba" transform="translate(-871 -490)">
+    <rect id="Rectangle_1123" data-name="Rectangle 1123" class="cls-1" width="178" height="100" rx="5" transform="translate(871 490)"/>
+    <text id="Release_Date" data-name="Release Date" class="cls-2" transform="translate(904 528)"><tspan x="0" y="0">Release Date</tspan></text>
+    <text id="TBA-2" data-name="TBA" class="cls-3" transform="translate(931 562)"><tspan x="0" y="0">TBA</tspan></text>
+  </g>
+</svg>

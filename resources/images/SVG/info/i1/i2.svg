@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="429" height="189" viewBox="0 0 429 189">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c1c1c;
+      }
+
+      .cls-1 {
+        font-size: 24px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        fill: #e3e3e3;
+      }
+    </style>
+  </defs>
+  <g id="i2" transform="translate(-746 -221)">
+    <text id="What_service_s_will_we_support_" data-name="What service&apos;s will we support?" class="cls-1" transform="translate(960 243)"><tspan x="-180.896" y="0">What service&apos;s will we support?</tspan></text>
+    <text id="When_our_service_launches_we_want_to_support_a_variety_of_communities._Ranging_from_gaming_to_large_scale_industrial_services._At_launch_we_hope_to_support_over_50_game_s_for_server_hosting." data-name="When our service launches we want to support a variety of communities. Ranging from gaming, to large scale industrial services.
+
+At launch we hope to support over 50+ game&apos;s for server hosting." class="cls-2" transform="translate(759 271)"><tspan x="6.898" y="16">When our service launches we want to support a </tspan><tspan x="7.917" y="37">variety of communities. Ranging from gaming, to </tspan><tspan x="80.95" y="58">large scale industrial services.</tspan><tspan x="201" y="79"></tspan><tspan x="2.411" y="100">At launch we hope to support over 50+ game&apos;s for </tspan><tspan x="141.973" y="121">server hosting.</tspan></text>
+    <rect id="Rectangle_873" data-name="Rectangle 873" class="cls-3" width="430" height="3" rx="1.5" transform="translate(746 258)"/>
+  </g>
+</svg>

@@ -1,9 +1,11 @@
+<!--Birthday 7/22/20-->
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Universal Server Hosting</title>
+	<title>Universal Server Hosting</title> 
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
-	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.png">
+	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="resources/images/png/favicon.png">
 	<link rel="stylesheet" type="text/php" href="resources/actions/emails.php">
 	<link rel="stylesheet" type="text/php" href="resources/actions/data.txt">
 	    <style>
@@ -12,60 +14,55 @@
       }
     </style>
 </head>
-<body>		
+<body>
+
+
+<div id="topSlide">
 	<img id="icon" src="resources/images/uc.svg">
 
-	<div id="elist">
-		<div id="alert">
-			<form name="alerts" action="?action=save" onsubmit="return validateForm()" method="post" required>
-				<h3 class="alert">Alert Me</h3>
-				<input type="email" name="email_form" id="email" placeholder="Email">
-				<input type="submit" name="submit" id="submit" value="Sign Up">
-			</form>
+	<div id="info">
+		<div id="i1">
+			<img id="ii1" src="resources/images/svg/info/i1/i1.svg">
+			<img src="resources/images/svg/info/i1/i2.svg">
+			
 		</div>
-		<div id="faq">
-			<h3 class="fh3">FAQ</h3>
-			<h3 id="fh" class="rainbowbd">What happens with my email?</h3>
-			<h4 class="ht1">Our favorite robot will personally send you information.
-				Whenever we release a new update, discount code, or news
-				you will be the first to receive the information!</h4>
-			<h3 id="fh" class="rainbowbd">Do I get any benefits?</h3>
-			<h4 class="ht2">Yes, anyone who is on the newsletter before launch
-				will receive a post launch prize. All prizes will be linked
-				with the email used for the newsletter.</h4>
-			<button class="ib2" id="ib2" onclick="buttonClick2()">Close</button>
-		</div>
-
-		<div id="faqh">
-			<button class="ib" id="ib1" onclick="buttonClick()">FAQ</button>
-		</div>
+		<button id="sgam" href="games.html">
+			<a class="sgam" href="games.html">View our Supported Games</a>
+		</button>
 	</div>
 
-
+	<button class="butt1" id="lm" onclick="OnClick()">Learn More</button>
+	<button class="butt1" id="lmh" onclick="OnClick2()">Close</button>
+</div>
+<div id="bottomSlide">
+	<a href="https://twitter.com/UniversalHosts" target="_blank">
+		<img src="resources/images/svg/twitter.svg" id="img">
+	</a>
+	<a href="https://www.youtube.com/channel/UC_KIeAEVNvPVgqAMSiWq8gg" target="_blank">
+		<img src="resources/images/svg/youtube.svg" id="img">
+	</a>
+	<a href="https://discord.gg/6hVaxpzYFJ" id="dscd" target="_blank">
+		<img src="resources/images/svg/discord.svg" id="img">
+	</a>
+</div>
+<img id="tba" src="resources/images/tba.svg">
 <script type="text/javascript">
-	function buttonClick() {
-		document.getElementById('faq').setAttribute('style', 'display: block;')
-		document.getElementById('faqh').setAttribute('style', 'display: none;')
-	}
+	function OnClick() {
+		document.getElementById('lm').setAttribute('style', 'display: none;')
+		document.getElementById('lmh').setAttribute('style', 'display: block;')
+
+		document.getElementById('info').setAttribute('style', 'display: block;')
+		document.getElementById('tba').setAttribute('style', 'display: none;')
+	}	
 </script>
-
 <script type="text/javascript">
-	function buttonClick2() {
-		document.getElementById('faq').setAttribute('style', 'display: none;')
-		document.getElementById('faqh').setAttribute('style', 'display: block;')
-	}
-</script>
+	function OnClick2() {
+		document.getElementById('lm').setAttribute('style', 'display: block;')
+		document.getElementById('lmh').setAttribute('style', 'display: none;')
 
-<script type="text/javascript">
-	function validateForm() {
-		var x = document.forms["alerts"]["email"].value;
-		if (x == "") {
-			alert("Email must be filled out before submitting.")
-
-
-			return false;
-		}
-	}
+		document.getElementById('info').setAttribute('style', 'display: none;')
+		document.getElementById('tba').setAttribute('style', 'display: inline;')
+	}	
 </script>
 
 </body>

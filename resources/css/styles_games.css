@@ -1,0 +1,98 @@
+html {
+	font-family: arial;
+	
+
+}
+
+button {
+	border: none;
+}
+
+*:focus {
+	outline: 0 !important;
+}
+
+a {
+	text-decoration: none;
+	color: #000000
+}
+
+#topSlide {
+	position: fixed;
+	margin-top: -1%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #F2F2F2;
+    width: 624px;
+    height: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#icon {
+    padding: 65px 90px 65px 90px;
+}
+
+#bottomSlide {
+    position: fixed;
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #F2F2F2;
+    width: 624px;
+    height: 770px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#sg {
+	margin: 10px 97px 0px 98px;
+}
+
+#games {
+	width: 480px;
+	height: 520px;
+	margin: 10px 77px 0px 77px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.game {
+	margin: 5px 0px 5px 0px;
+}
+
+#con {
+	margin: 10px 97px 0px 97px;
+}
+
+#dc {
+	margin: 30px 158px 0px 158px;
+}
+
+#in {
+	margin: 50px 97px 0px 97px;
+}
+
+#twt {
+	margin: 0px 225px 0px 225px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E3E3E3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9A9A9A;
+}
