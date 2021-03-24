@@ -1,0 +1,131 @@
+html {
+	font-family: arial;
+	
+
+}
+
+button {
+	border: none;
+}
+
+*:focus {
+	outline: 0 !important;
+}
+
+a {
+	text-decoration: none;
+	color: #000000
+}
+
+#topSlide {
+	position: fixed;
+	top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #F2F2F2;
+    width: -webkit-fill-available;
+    height: 414px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#bottomSlide {
+	position: fixed;
+	bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #F2F2F2;
+    width: -webkit-fill-available;
+    height: 1200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#info {
+    left: 50%;
+    width: 80%;
+	margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 500px;
+}
+
+#icon {
+	padding: 120px 60px 120px 60px;
+    width: 64%;
+}
+
+#ex1 {
+    position: fixed;
+    height: 35%;
+    margin: 140px 0px 0px 0px;
+}
+
+#btxt {
+    height: 40%;
+    margin: 10px 220px 30px 220px;
+}
+
+#img {
+    padding: 23px 30px 26px 25px;
+    margin: 0px 183px 0px 182px;
+    height: 34%;
+}
+
+#game {
+    width: 100%;
+    margin: 25px 45px 500px 45px;
+}
+
+
+
+#sg {
+    margin: 10px 104px 0px 104px;
+    height: 6%;
+}
+
+#games {
+    height: 1088px;
+    margin: 10px 77px 0px 77px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.game {
+    margin: 5px 0px 5px 0px;
+}
+
+#con {
+    margin: 10px 97px 0px 97px;
+}
+
+#dc {
+    margin: 30px 158px 0px 158px;
+}
+
+#in {
+    margin: 50px 97px 0px 97px;
+}
+
+#twt {
+    margin: 20px 225px 0px 225px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E3E3E3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9A9A9A;
+}

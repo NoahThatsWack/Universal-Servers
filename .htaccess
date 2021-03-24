@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{index.html} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteCond %{games.html} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteCond %{missinggame.html} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
