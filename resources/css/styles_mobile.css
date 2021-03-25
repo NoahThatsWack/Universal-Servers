@@ -25,7 +25,7 @@ a {
     background-color: #F2F2F2;
     width: -webkit-fill-available;
     height: 414px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 #bottomSlide {
@@ -36,15 +36,24 @@ a {
     background-color: #1C1C1C;
     width: -webkit-fill-available;
     height: 414px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#infod {
+    background-color: #F2F2F2;
+    width: 771px;
+    height: 773px;
+    left: 50%;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 500px;
+    border-radius: 30px;
 }
 
 #info {
-    left: 50%;
-    width: 80%;
-	margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 500px;
+    height: 100%;
+    margin: 10px 28px 0px 28px;
 }
 
 #icon {
@@ -71,5 +80,45 @@ a {
 
 #game {
     width: 100%;
+    height: 100%;
     margin: 25px 45px 500px 45px;
+}
+
+#a1 {
+    height: 8px;
+    width: 654px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2E2E2E;
+}
+
+#a2 {
+    height: 8px;
+    width: 654px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+#af {
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 25px 0px 25px 0px;
+}
+
+#if {
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+    color: #1C1C1C;
+    padding-top: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+#if2 {
+    width: 90%;
+    height: 90%;
+    margin: 0px 35px 0px 35px;
 }
