@@ -17,7 +17,7 @@ a {
 
 #topSlide {
 	position: fixed;
-	margin-top: -1%;
+	top: 0;
     left: 50%;
     transform: translate(-50%);
     background-color: #F2F2F2;
@@ -27,7 +27,8 @@ a {
 }
 
 #tba {
-	margin: 460px 871px 0px 860px;
+    margin-top: 25%;
+    margin-left: 45%;
 }
 
 #icon {
@@ -105,7 +106,7 @@ a {
 
 #bottomSlide {
     position: fixed;
-    margin-top: 45%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%);
     background-color: #1C1C1C;
